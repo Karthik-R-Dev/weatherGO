@@ -1,0 +1,67 @@
+
+.set{
+    text-align: center;
+    position: relative;
+    top: 2rem;
+}
+label{
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Merienda', cursive;
+}
+input{
+    font-size: 3rem;
+}
+.btn-1{
+    width: 4rem;
+    height: 3.8rem;
+    position: relative;
+    bottom: 0.7rem;
+}
+ /* background */
+body {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    padding:0;
+    margin:0;
+    background:  #21034f;                                
+  }
+  svg {
+    width:300px;
+    margin-top:60px;
+  }
+  circle {
+    fill: #fff;
+    animation: flame 2s ease-out infinite;
+  }
+  #ci2 {
+    animation-delay: -.5s;
+  }
+  #ci3 {
+    animation-delay: -1s;
+  }
+  #ci4 {
+    animation-delay: -1.5s;
+  }
+  
+  @keyframes flame {
+    from {
+      r:1px;
+      opacity:.8;
+    }
+    to {
+      r:28px;
+      opacity:0;
+    }
+  }
+  
+
+
+
+  /* #21034f */
+
+
+  
